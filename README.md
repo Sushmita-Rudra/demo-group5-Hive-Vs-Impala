@@ -37,19 +37,13 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 
 Name: 
 
-GitHub profile: []()
+GitHub profile: [Sravani Jaidi](https://github.com/Sravani537520)
 
---
---
---
---
---
---
---
---
---
---
+<img src="./Shrvni.jpeg" width="250">
 
+### subtopic
+##### Interacting with Hive and Impala
+- Steps for executing a Query in Hive and Impala
 
 Name:
 
