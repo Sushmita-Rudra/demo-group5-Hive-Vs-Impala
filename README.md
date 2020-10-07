@@ -15,6 +15,9 @@ GitHub profile: [Sushmita-Rudra](https://github.com/Sushmita-Rudra)
 --
 --
 
+Subtopics:
+1. Load data from local to HDFS using Hive.
+1. Perform HiveQL queries for data retrieval.
 
 Name: Manisha Mengani
 
@@ -65,6 +68,4 @@ GitHub profile: []()
 
 
 
-Subtopics:
-1. Load data from local to HDFS using Hive.
-1. Perform HiveQL queries for data retrieval.
+
