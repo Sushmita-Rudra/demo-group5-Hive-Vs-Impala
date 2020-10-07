@@ -1,6 +1,7 @@
 # demo-group5-Hive-Vs-Impala
 
-## Hive
+### Sushmita Rudra
+
 Subtopics:
-1. Load data from local to HDFS.
-1. perform HiveQL queries for data retrieval.
+1. Load data from local to HDFS using Hive.
+1. Perform HiveQL queries for data retrieval.
