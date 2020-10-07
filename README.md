@@ -31,7 +31,7 @@ GitHub profile: [Sravani Jaidi](https://github.com/Sravani537520)
 ##### Interacting with Hive and Impala
 - Steps for executing a Query in Hive and Impala
 
-### Name: 
+### Name: Anil Bomma
 
 GitHub profile: []()
 
