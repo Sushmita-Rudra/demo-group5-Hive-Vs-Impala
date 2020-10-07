@@ -2,7 +2,7 @@
 ## Team Members
 Name: Sushmita Rudra
 
-GitHub profile: []()
+GitHub profile: [Sushmita-Rudra](https://github.com/Sushmita-Rudra)
 
 ![Sushmita](./IMG_2139.jpg)
 --
