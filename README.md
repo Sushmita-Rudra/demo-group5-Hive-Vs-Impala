@@ -15,7 +15,7 @@ Subtopics:
 
 GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 
-![Manisha](mengani.jpeg)
+<img src="./mengani.jpeg" width="250"/>
 
 
 ### subtopics
