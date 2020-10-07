@@ -35,6 +35,9 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 --
 --
 
+### subtopics
+#### To create tables and update them using hive
+
 Name: 
 
 GitHub profile: [Sravani Jaidi](https://github.com/Sravani537520)
