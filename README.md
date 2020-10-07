@@ -5,7 +5,7 @@
 
 GitHub profile: [Sushmita-Rudra](https://github.com/Sushmita-Rudra)
 
-![Sushmita](./IMG_2139.jpg)
+<img src="./IMG_2139.jpg" width="250"/>
 
 Subtopics:
 1. Load data from local to HDFS using Hive.
