@@ -2,7 +2,7 @@
 
 ### Sushmita Rudra
 
-![Sushmita](./IMG_2139.jpg "Sushmita")
+![Sushmita](./IMG_2139.jpg)
 
 Subtopics:
 1. Load data from local to HDFS using Hive.
