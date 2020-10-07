@@ -34,6 +34,6 @@ GitHub profile: [Sravani Jaidi](https://github.com/Sravani537520)
 ### Name: Anil Bomma
 
 GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
-![bomma](blob:https://web.whatsapp.com/16facf26-6e7c-430a-81a7-f139cfcfbf49)
+<img src="./bomma.jpeg" width="250">
 
 
