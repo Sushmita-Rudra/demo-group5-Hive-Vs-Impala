@@ -20,6 +20,7 @@ Name: Manisha Mengani
 
 GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 
+![Manisha](mengani.jpeg)
 --
 --
 --
