@@ -38,4 +38,7 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
 
 <img src="./bomma.jpeg" width="250">
 
+### subtopic:
+- Managing Data with Hive and Impala
+
 
