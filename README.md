@@ -41,4 +41,9 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
 ### subtopic:
 - Managing Data with Hive and Impala
 
+### References:
+- https://www.simplilearn.com/basics-of-hive-and-impala-tutorial
+- https://informationit27.medium.com/hive-and-impala-for-managing-structured-data-3ff020a3fbff
+- https://medium.com/@mmas/loading-data-into-hive-6f9d9b8d0b8f
+- http://www.javachain.com/load-data-into-hive-table-from-hdfs/
 
