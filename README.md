@@ -59,7 +59,21 @@ GitHub profile: [Sravani Jaidi](https://github.com/Sravani537520)
 
 ### subtopic
 ##### Interacting with Hive and Impala
-- Steps for executing a Query in Hive and Impala
+- Steps for creating and loading data using Impala
+===================================================
+
+- Craeted data file on the desktop inorder to load into hadoop.
+- Open cloudera terminal and using impala-shell command logged into impala cli where I can execute commands.
+- create database using `create database hive_impala` 
+- verify database using `show databases`
+- create table using `create table customer_orders (store String,category String,cost double,paymenttype String)ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE; `
+- Load data using `LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/RawData.txt' OVERWRITE INTO TABLE customer_orders;` 
+- The above command results analysisexception beacuse we cannot load data using impala, since it doesn't have any own metadata structure it will use hive-metatdata structure.
+- Now let's load data by connecting to hive-cli, open new terminal and enter hive in terminal.
+- Load the data using same command `LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/RawData.txt' OVERWRITE INTO TABLE customer_orders;`
+- Let's verify the data is loaded or not using some basic command.
+
+
 
 ### Name: Anil Bomma
 
