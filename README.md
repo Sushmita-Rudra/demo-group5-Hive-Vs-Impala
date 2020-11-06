@@ -19,7 +19,15 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 
 
 ### subtopics
-#### To create tables and update them using hive
+#### To Load data From Local to HDFS create tables and update them using hive
+1. How to load data from Local to HDFS.
+   > Create file named 'Demo.txt' on your local(I have created it on my desktop).
+   > Once the file is created update the file with content as per your requirement delimeted with special symbol.
+   > Once the file with data is ready, lets move the file from local file system to HDFS.
+     
+   
+   
+2.Use the loaded Data in hive tables.
 
 ### Name: Shravani Jaidi 
 
