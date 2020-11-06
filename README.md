@@ -24,13 +24,13 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
    
    - Create file named 'Demo.txt' on your local(I have created it on my desktop).
    - Once the file is created update the file with content as per your requirement delimeted with special symbol.
-     Example:``` S537360,Manisha,ComputerScience,NorthwestMissouriStateUniversity. ```
+     Example: ``` S537360,Manisha,ComputerScience,NorthwestMissouriStateUniversity. ```
    - Once the file with data is ready, lets move the file from local file system to HDFS.
      - open the terminal window by clicking on the small black screen located at the middle on the cloudera welcome screen.
-     - Once the terminal is open you are prompted with the host name followed with "$" symbol.
+     - When the terminal is open you are prompted with the host name followed with "$" symbol.
      - Now follow the below commands.
-     - know about you current directory ```pwd```.
-     - List all the files present in the director ```ls```.
+     - To know about the current directory type the command ```pwd```.
+     - To list all the files present in the director ```ls```.
      - Using ```cd ``` command move to the directory where data file is created.
      - Once you are in correct directory (check with pwd command) type ``` ls ``` which will list all the available files.
      - 
