@@ -20,8 +20,13 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 
 ### subtopics
 #### To Load data From Local to HDFS create tables and update them using hive
-##### 1. How to load data from Local to HDFS.
-   
+##### Prerequisites:
+      - Install cloudera virtual Machine into the local.[Cloudera](https://www.cloudera.com/)
+      - Install oracle virtual box.[Virtual Box](https://www.virtualbox.org/)
+      
+##### Process and Commands:
+###### 1. How to load data from Local to HDFS.
+   - In the cloudera Virtual Machine follow below steps
    - Create file named 'Demo.txt' on your local(I have created it on my desktop).
    - Once the file is created update the file with content as per your requirement delimeted with special symbol.
      Example: ``` S537360,Manisha,ComputerScience,NorthwestMissouriStateUniversity. ```
@@ -42,7 +47,7 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
      
    
    
-##### 2.Use the loaded Data in hive tables.
+###### 2.Use the loaded Data in hive tables.
 
 ### Name: Shravani Jaidi 
 
