@@ -83,10 +83,18 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
 <img src="./bomma.jpeg" width="250">
 
 ### subtopic:
-- Managing Data with Hive and Impala
+ ## Implementation of aggregate queries using Impala and exploring web interface for impala and hive
+ 
+ - Lets verify database, tables and data which is already loaded using impala shell
+ - Let's calculate the maximum cost for each category using groupby clause on the loaded data 
+ - `select category, max(cost) from demo group by category;`
+ - Let's try to execute the above command in both hive and impala and calculate the execution time using Hue.
+ - As we all know Impala sit's directly on the hdfs whereas hive sit's on the hdfs -> map-reducer. So the execution will be faster using impala when compared to the hive.
 
 ### References:
 - https://www.simplilearn.com/basics-of-hive-and-impala-tutorial
+- https://stackoverflow.com/questions/20500221/impala-cant-access-all-hive-table
+- https://docs.cloudera.com/machine-learning/1.0/import-data/topics/ml-loading-csv-data-into-an-impala-table.html
 - https://informationit27.medium.com/hive-and-impala-for-managing-structured-data-3ff020a3fbff
 - https://medium.com/@mmas/loading-data-into-hive-6f9d9b8d0b8f
 - http://www.javachain.com/load-data-into-hive-table-from-hdfs/
