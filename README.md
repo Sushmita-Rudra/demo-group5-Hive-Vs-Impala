@@ -87,8 +87,8 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
  ## Implementation of aggregate queries using Impala and exploring web interface for impala and hive
  
  ### Prerequisites:
-      - Install oracle virtual box.[Virtual Box](https://www.virtualbox.org/)
-      - Install cloudera virtual Machine into the local.[Cloudera](https://www.cloudera.com/)
+      - Install oracle virtual box. [Virtual Box](https://www.virtualbox.org/)
+      - Install cloudera virtual Machine into the local. [Cloudera](https://www.cloudera.com/)
  
  ### TODO list:
  - Lets verify database, tables and data which is already loaded using impala shell
