@@ -1,5 +1,6 @@
-# demo-group5-Hive-Vs-Impala
-## Team Members
+# Demo Group5 Hive Vs Impala
+
+## Team Members - Group-5
 
 ### Name: Sushmita Rudra
 
