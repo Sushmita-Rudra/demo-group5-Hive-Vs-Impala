@@ -1,4 +1,4 @@
-# Demo Group5 Hive Vs Impala
+# Hive Vs Impala
 
 ## Team Members - Group-5
 
