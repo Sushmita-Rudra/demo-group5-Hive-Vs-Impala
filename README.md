@@ -1,4 +1,4 @@
-# Hive Vs Impala
+# Demo Group5 Hive Vs Impala
 
 ## Team Members - Group-5
 
@@ -8,12 +8,68 @@ GitHub profile: [Sushmita-Rudra](https://github.com/Sushmita-Rudra)
 
 <img src="./IMG_2139.jpg" width="250"/>
 
-Subtopics:
-1. Load data from local to table using Hive.
+#### Subtopics:
+1. Load local data file into table using Hive commands.
 1. Perform HiveQL queries for data retrieval and insertion of data manually.
 
-#### Pre-requisites:
-     - 
+#### Prerequisites:
+ -  Install [Oracle Virtual box](https://www.virtualbox.org/wiki/Downloads)
+ -  Install and set up [Cloudera Virtual VM](https://www.cloudera.com/)
+
+### Step-by-step process and commands:
+#### 1. How to insert into a table manually:
+  1. Open terminal in Cloudera VM and press ```hive```, which will open up the Hive CLI.
+  1. Create a table 'user_details' inside the database by using the following command.
+  
+	  ```
+     
+	    create table if not exists user_details (
+	       id int,
+	       age int,
+	       gender string,
+	       profession string,
+	       reviews int
+	    );
+      
+	  ```
+	
+  1. Now, insert the data into that table using the below command.
+ 
+	 ```
+	   insert into table user_details values (1,24,'F',Doctor,234455);
+      ```
+This is how we can manually insert a row data inside a table using Hive command.
+We can verify the  data insertion by typing in the below command
+  ```
+    select * from user_details; 
+  ```
+
+#### 2. How to load data from a local file into a table:
+More often than not , we will have large data files that needs to be dumped into a table, we can achieve that by using Hive.
+ 1. Inside the terminal, create another table 'user_info' inside the database by using the following command.
+  ```
+   create table if not exists user_info (id int, profession string, age int, gender string, reviews int) row format delimited fields terminated by '|'
+  lines terminated by '\n' stored as textfile ; 
+  ```
+ 1. Have the data file which you want to load into the table saved in your local machine. In my case, my local data file is at location "/home/cloudera/Documents/u.user"
+    Use the  destination path of the local file in your machine in the below command to load the data into the table 'user_info'.
+	
+	```
+	load data local inpath '/home/cloudera/Documents/u.user' into table user_info;
+	```
+	
+1. Verify the successful loading of data by querying out the table.
+	
+	```select * from user_info; ```
+     
+  ### References:
+  - https://data-flair.training/blogs/hive-dml-commands/
+  - https://drive.google.com/file/d/1uJ3Vg-CNc-DPFxMrjnHSeigvvzrdlZDz/view
+  - https://www.virtualbox.org/wiki/Downloads
+  - https://www.youtube.com/watch?v=HP4g2BU7-xU&feature=youtu.be&ab_channel=Simplilearn
+  - https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DML
+  - http://www.hadooplessons.info/2014/12/loading-data-into-hive-table.html
+    
 ### Name: Manisha Mengani
 
 GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
@@ -87,8 +143,8 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
  ## Implementation of aggregate queries using Impala and exploring web interface for impala and hive
  
  ### Prerequisites:
-      - Install oracle virtual box. [Virtual Box](https://www.virtualbox.org/)
-      - Install cloudera virtual Machine into the local. [Cloudera](https://www.cloudera.com/)
+      - Install oracle virtual box.[Virtual Box](https://www.virtualbox.org/)
+      - Install cloudera virtual Machine into the local.[Cloudera](https://www.cloudera.com/)
  
  ### TODO list:
  - Lets verify database, tables and data which is already loaded using impala shell
