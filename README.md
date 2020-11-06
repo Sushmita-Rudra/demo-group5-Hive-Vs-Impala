@@ -51,7 +51,8 @@ More often than not , we will have large data files that needs to be dumped into
    create table if not exists user_info (id int, profession string, age int, gender string, reviews int) row format delimited fields terminated by '|'
   lines terminated by '\n' stored as textfile ; 
   ```
- 1. Have the data file which you want to load into the table saved in your local machine. In my case, my local data file is at location "/home/cloudera/Documents/u.user"
+ 1. Have the data file which you want to load into the table saved in your local machine. In my case, my local data file is at location "/home/cloudera/Documents/u.user".
+    "u.user" data file is added in the repo files.
     Use the  destination path of the local file in your machine in the below command to load the data into the table 'user_info'.
 	
 	```
