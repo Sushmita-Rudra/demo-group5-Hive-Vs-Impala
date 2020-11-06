@@ -85,6 +85,10 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
 ### subtopic:
  ## Implementation of aggregate queries using Impala and exploring web interface for impala and hive
  
+ ##### Prerequisites:
+      - Install oracle virtual box.[Virtual Box](https://www.virtualbox.org/)
+      - Install cloudera virtual Machine into the local.[Cloudera](https://www.cloudera.com/)
+ 
  - Lets verify database, tables and data which is already loaded using impala shell
  - Let's calculate the maximum cost for each category using groupby clause on the loaded data 
  - `select category, max(cost) from customer_orders group by category;`
