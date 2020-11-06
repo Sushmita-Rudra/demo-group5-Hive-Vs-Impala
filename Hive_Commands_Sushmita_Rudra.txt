@@ -1,0 +1,34 @@
+HIVE COMMANDS:
+show databases;
+create table tablename;
+desc tablename;
+show tables;
+use database;
+
+//Manual insertion commands
+
+create table if not exists user_details (
+       id int,
+       age int,
+       gender string,
+       profession string,
+       reviews int
+ );
+ insert into table user_details values (1,24,'F',Doctor,234455);
+
+//Loading from a local file
+
+create table if not exists user_info (id int, profession string, age int, gender string, reviews int) row format delimited fields terminated by '|'
+lines terminated by '\n' stored as textfile ; 
+
+
+
+load data local inpath '/home/cloudera/Documents/u.user' into table user_info;
+
+select * from user_info;
+
+//Git hub repo: https://github.com/Sushmita-Rudra/demo-group5-Hive-Vs-Impala
+
+
+
+
