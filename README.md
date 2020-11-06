@@ -59,7 +59,7 @@ GitHub profile: [Sravani Jaidi](https://github.com/Sravani537520)
 
 ### subtopic
 ##### Interacting with Hive and Impala
-- Steps for creating and loading data using Impala
+Steps for creating and loading data using Impala
 ===================================================
 
 - Craeted data file on the desktop inorder to load into hadoop.
