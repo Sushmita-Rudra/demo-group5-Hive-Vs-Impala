@@ -35,6 +35,9 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
      - Once you are in correct directory (check with pwd command) type ``` ls ``` which will list all the available files(Check for the data file ie Demo.txt)
      - ``` scp filename root@ip-address: ``` this will prompt with password enter the cloudera password.(file name - Demo.txt)
      - ip address of the vm can be know by typing the command ``` ifconfig ``` inet address from the result is the ipaddress.
+     - To check the file content give the command ``` cat file-name ```.This is display all the data present in the file.
+     - To put the file in to HDFS ``` hadoop fs -put Demo / user/cloudera ```
+     - file is now in HDFS.
      
      
    
