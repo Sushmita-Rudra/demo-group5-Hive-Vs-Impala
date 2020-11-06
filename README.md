@@ -87,9 +87,10 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
  
  - Lets verify database, tables and data which is already loaded using impala shell
  - Let's calculate the maximum cost for each category using groupby clause on the loaded data 
- - `select category, max(cost) from demo group by category;`
+ - `select category, max(cost) from customer_orders group by category;`
  - Let's try to execute the above command in both hive and impala and calculate the execution time using Hue.
  - As we all know Impala sit's directly on the hdfs whereas hive sit's on the hdfs -> map-reducer. So the execution will be faster using impala when compared to the hive.
+ 
 
 ### References:
 - https://www.simplilearn.com/basics-of-hive-and-impala-tutorial
