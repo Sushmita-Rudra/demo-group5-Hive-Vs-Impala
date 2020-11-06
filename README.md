@@ -23,8 +23,8 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 1. How to load data from Local to HDFS.
    
    - Create file named 'Demo.txt' on your local(I have created it on my desktop).
-   - Once the file is created update the file with content as per your requirement delimeted with special symbol.
-     Example:S537360,Manisha,ComputerScience,NorthwestMissouriStateUniversity.
+   - Once the file is created update the file with content as per your requirement delimeted with special symbol.```
+     Example:``` S537360,Manisha,ComputerScience,NorthwestMissouriStateUniversity.
    - Once the file with data is ready, lets move the file from local file system to HDFS.
      - open the terminal window by clicking on the small black screen located at the middle on the cloudera welcome screen.
      - Once the terminal is open you are prompted with the host name followed with "$" symbol.
