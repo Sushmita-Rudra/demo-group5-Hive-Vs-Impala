@@ -8,9 +8,11 @@ GitHub profile: [Sushmita-Rudra](https://github.com/Sushmita-Rudra)
 <img src="./IMG_2139.jpg" width="250"/>
 
 Subtopics:
-1. Load data from local to HDFS using Hive.
-1. Perform HiveQL queries for data retrieval.
+1. Load data from local to table using Hive.
+1. Perform HiveQL queries for data retrieval and insertion of data manually.
 
+#### Pre-requisites:
+     - 
 ### Name: Manisha Mengani
 
 GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
