@@ -103,33 +103,33 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
      ```
    - file is now in HDFS.
    
-###### 2.Use the loaded Data in hive tables.
-    - In the hive terminal 
+###### 2.Use the loaded Data in hive tables
+   - In the hive terminal 
       ```
       show databases
       
       ```
-    - create table :
-      create a table as per the data loaded in hdfs 
-      
+   - use database and create table.
+     
+   - To create table :
+     create a table as per the data loaded in hdfs 
       ```
-     create table sales_demo(id int, 
+      create table sales_demo(id int, 
                        name string,
                        product string,
                        num_sales int)
                        row format delimited fields terminated by '-';
       ```
+   - To load the data into the sales_demo table
+      ```
+      load data inpath '/user/cloudera/sales_demo' overwrite into table sales_demo;
+      
+      ```
+   - View the content of the table
+      ```
+      select * from sales_demo;
      
-
-show tables;
-
-select * from sales_demo;
-
-load data inpath '/user/cloudera/sales_demo' overwrite into table sales_demo;
-
-select * from sales_demo;
-
-select COUNT(num_sales) from sales_demo;
+     ```
 
 ### Name: Shravani Jaidi 
 
