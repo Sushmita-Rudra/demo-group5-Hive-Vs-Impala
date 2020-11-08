@@ -87,27 +87,49 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
 ##### Process and Commands:
 ###### 1. How to load data from Local to HDFS.
    - In the cloudera Virtual Machine follow below steps
-   - Create file named 'Demo.txt' on your local(I have created it on my desktop).
+   - Create file named 'sales_demo' in local
    - Once the file is created update the file with content as per your requirement delimeted with special symbol.
-     Example: ``` S537360,Manisha,ComputerScience,NorthwestMissouriStateUniversity. ```
-   - Once the file with data is ready, lets move the file from local file system to HDFS.
-     - open the terminal window by clicking on the small black screen located at the middle on the cloudera welcome screen.
-     - When the terminal is open you are prompted with the host name followed with "$" symbol.
-     - Now follow the below commands.
-     - To know about the current directory type the command ```pwd```.
-     - To list all the files present in the director ```ls```.
-     - Using ```cd ``` command move to the directory where data file is created.
-     - Once you are in correct directory (check with pwd command) type ``` ls ``` which will list all the available files(Check for the data file ie Demo.txt)
-     - ``` scp filename root@ip-address: ``` this will prompt with password enter the cloudera password.(file name - Demo.txt)
-     - ip address of the vm can be know by typing the command ``` ifconfig ``` inet address from the result is the ipaddress.
-     - To check the file content give the command ``` cat file-name ```.This is display all the data present in the file.
-     - To put the file in to HDFS ``` hadoop fs -put Demo / user/cloudera ```
-     - file is now in HDFS.
+     Example:
+     ```
+     1-Anu-boxes-18
      
-     
+     ```
+   - Once the file with data is ready, lets move the file from local file system to HDFS
+   - To check the file content give the command ``` cat sales_demo ```.This is display all the data present in the file.
+   - To put the file in to HDFS 
+     ```   
+     hadoop fs -cat  /user/cloudera/sales_demo 
    
+     ```
+   - file is now in HDFS.
    
 ###### 2.Use the loaded Data in hive tables.
+    - In the hive terminal 
+      ```
+      show databases
+      
+      ```
+    - create table :
+      create a table as per the data loaded in hdfs 
+      
+      ```
+     create table sales_demo(id int, 
+                       name string,
+                       product string,
+                       num_sales int)
+                       row format delimited fields terminated by '-';
+      ```
+     
+
+show tables;
+
+select * from sales_demo;
+
+load data inpath '/user/cloudera/sales_demo' overwrite into table sales_demo;
+
+select * from sales_demo;
+
+select COUNT(num_sales) from sales_demo;
 
 ### Name: Shravani Jaidi 
 
