@@ -1,1 +1,39 @@
+To load file from local system to hadoop:
+-----------------------------------------
+
+create a file and load it with data separated with delimiter
+
+list the file present in hadoop file system
+hadoop fs -ls /user/cloudera
+
+put the file in hdfs
+hadoop fs -put sales_demo /user/cloudera
+
+check the file content
+hadoop fs -cat  /user/cloudera/sales_demo
+
+
+To create table and load file into hive:
+-------------------------------------------
+
+HIVE TERMINAL COMMANDS:
+show databases;
+
+use demobigdata;
+
+show tables;
+
+create table sales_demo(id int, 
+                       name string,
+                       product string,
+                       num_sales int)
+                       row format delimited fields terminated by '-';
+
+show tables;
+
+select * from sales_demo;
+
+load data inpath '/user/cloudera/sales_demo' overwrite into table sales_demo;
+
+select * from sales_demo;
 
