@@ -130,6 +130,12 @@ GitHub profile: [Manisha-Mengani](https://github.com/Manisha-Mengani)
       select * from sales_demo;
      
      ```
+###### References:
+   - https://www.youtube.com/watch?v=8rsNXdvFqBc
+   - https://www.virtualbox.org/wiki/Downloads
+   - https://www.tutorialspoint.com/hive/index.htm
+   - http://www.javachain.com/load-data-into-hive-table-from-hdfs/
+   
 
 ### Name: Shravani Jaidi 
 
