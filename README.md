@@ -199,6 +199,10 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
  - Let's try to execute the above command in both hive and impala and calculate the execution time using Hue.
  - As we all know Impala sit's directly on the hdfs whereas hive sit's on the hdfs -> map-reducer. So the execution will be faster using impala when compared to the hive.
  
+ ##### Demo link:
+ 
+ - https://use.vg/yGGrUI
+ 
 
 ### References:
 
@@ -206,4 +210,5 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
 - https://informationit27.medium.com/hive-and-impala-for-managing-structured-data-3ff020a3fbff
 - https://medium.com/@mmas/loading-data-into-hive-6f9d9b8d0b8f
 - http://www.javachain.com/load-data-into-hive-table-from-hdfs/
+- https://www.youtube.com/watch?v=nRm3NbuS0IA&ab_channel=Intellipaat
 
