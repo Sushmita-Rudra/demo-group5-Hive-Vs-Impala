@@ -160,6 +160,13 @@ Steps for creating and loading data using Impala
 - Let's verify the data is loaded or not using some basic command.
 
 
+### References
+
+- https://docs.cloudera.com/documentation/enterprise/latest/topics/impala_create_table.html
+- https://stackoverflow.com/questions/20500221/impala-cant-access-all-hive-table
+- https://docs.cloudera.com/machine-learning/1.0/import-data/topics/ml-loading-csv-data-into-an-impala-table.html
+- https://docs.cloudera.com/runtime/7.2.1/impala-sql-reference/topics/impala-load-data.html
+
 
 ### Name: Anil Bomma
 
@@ -184,9 +191,8 @@ GitHub profile: [Anil Bomma](https://github.com/anil-bomma)
  
 
 ### References:
+
 - https://www.simplilearn.com/basics-of-hive-and-impala-tutorial
-- https://stackoverflow.com/questions/20500221/impala-cant-access-all-hive-table
-- https://docs.cloudera.com/machine-learning/1.0/import-data/topics/ml-loading-csv-data-into-an-impala-table.html
 - https://informationit27.medium.com/hive-and-impala-for-managing-structured-data-3ff020a3fbff
 - https://medium.com/@mmas/loading-data-into-hive-6f9d9b8d0b8f
 - http://www.javachain.com/load-data-into-hive-table-from-hdfs/
