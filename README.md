@@ -145,6 +145,13 @@ GitHub profile: [Sravani Jaidi](https://github.com/Sravani537520)
 
 ### subtopic
 ##### Interacting with Hive and Impala
+
+##### Prerequisites:
+ -  Download and Install [Oracle Virtual box](https://www.virtualbox.org/wiki/Downloads)
+ -  Download and Install [Cloudera Virtual VM](https://www.cloudera.com/)
+ 
+ ##### Process and commands
+ 
 Steps for creating and loading data using Impala
 ===================================================
 
@@ -166,7 +173,7 @@ Steps for creating and loading data using Impala
 - https://stackoverflow.com/questions/20500221/impala-cant-access-all-hive-table
 - https://docs.cloudera.com/machine-learning/1.0/import-data/topics/ml-loading-csv-data-into-an-impala-table.html
 - https://docs.cloudera.com/runtime/7.2.1/impala-sql-reference/topics/impala-load-data.html
-
+- https://www.youtube.com/watch?v=HP4g2BU7-xU
 
 ### Name: Anil Bomma
 
