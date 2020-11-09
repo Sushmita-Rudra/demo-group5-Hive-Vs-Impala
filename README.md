@@ -166,6 +166,9 @@ Steps for creating and loading data using Impala
 - Load the data using same command `LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/RawData.txt' OVERWRITE INTO TABLE customer_orders;`
 - Let's verify the data is loaded or not using some basic command.
 
+##### Demo Video Link:
+- https://use.vg/gHSjlX
+
 
 ### References
 
